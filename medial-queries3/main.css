@@ -1,3 +1,128 @@
 body {
-  background: peachpuff;
+  background: papayawhip;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.a {
+  height: 10em;
+  order: 1;
+  width: 100%;
+  background-color: blue;
+  border: 1px solid black;
+}
+.b {
+  height: 10em;
+  order: 2;
+  width: 33%;
+  background-color: red;
+  border: 1px solid black;
+}
+.c {
+  height: 10em;
+  align-self: flex-start;
+  order: 3;
+  width: 33%;
+  height: 10em;
+  background-color: lightseagreen;
+  border: 1px solid black;
+}
+.d {
+  height: 10em;
+  order: 4;
+  width: 33%;
+  background-color: lightpink;
+  border: 1px solid black;
+}
+.e {
+  height: 10em;
+  order: 5;
+  width: 33%;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.f {
+  height: 10em;
+  order: 6;
+  width: 33%;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.g {
+  height: 10em;
+  order: 6;
+  width: 33%;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.h {
+  height: 10em;
+  order: 6;
+  width: 100%;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+@media (max-width: 500px) {
+  .container {
+    border: 2px solid blue;
+    align-items: stretch;
+  }
+  .a {
+    height: 10em;
+    width: 100%;
+    background-color: blue;
+    border: 1px solid blue;
+  }
+
+  .b {
+    height: 10em;
+    width: 25%;
+    background-color: greenyellow;
+    border: 1px solid blue;
+  }
+  .c {
+    height: 10em;
+    width: 25%;
+    background-color: yellow;
+    border: 1px solid blue;
+  }
+  .d {
+    height: 10em;
+    width: 25%;
+    background-color: yellow;
+    border: 1px solid blue;
+  }
+  .e {
+    height: 10em;
+    width: 25%;
+    background-color: yellow;
+    border: 1px solid blue;
+  }
+  .f {
+    height: 10em;
+    width: 17%;
+    background-color: yellow;
+    border: 1px solid blue;
+  }
+  .g {
+    height: 10em;
+    width: 17%;
+    background-color: yellow;
+    border: 1px solid blue;
+  }
+  .f h {
+    height: 10em;
+    width: 17%;
+    background-color: yellow;
+    border: 1px solid blue;
+  }
 }
